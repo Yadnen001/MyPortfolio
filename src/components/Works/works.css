@@ -1,0 +1,80 @@
+#works {
+    margin: 0 auto;
+    text-align: center;
+    min-height: auto;
+    width: 100vw;
+    max-width: 60rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0 1rem;
+}
+
+.workstitle {
+    margin-top: 4%;
+    font-size: 3rem;
+    padding-top: 3%;
+    font-weight: 600;
+
+}
+
+.worksDesc {
+    font-weight: 300;
+    font-size: 1rem;
+    margin-bottom: 2rem;
+}
+
+.worksImgs {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100vw;
+    max-width: 65rem;   
+}
+
+.WorksImg {
+    object-fit: cover;
+    margin: 1rem;
+    height: 20rem;
+}
+
+.project1 {
+    display:block;
+    align-items: center;
+    text-align: center;
+
+}
+
+.projectInfo1 {
+    margin-bottom: 1rem;
+
+}
+
+.projectInfo1:hover {
+   
+    transform: scale(1.05);
+   
+}
+
+.workBtn {
+    margin: 3rem 0;
+    padding:  0.5rem 2rem;
+    border: none;
+    border-radius: 2rem;
+    background-color: white;
+    font-size: 1rem;
+}
+
+.workBtn:hover {
+    transform: scale(1.05);
+}
+
+@media screen and (max-width:550px){
+
+    .WorksImg{
+        height: 45vw;
+    }
+    
+}
